@@ -773,19 +773,27 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .9), 0 0 1px 2px #3899ec !important
 }
 
+ng\:form {
+    display: block;
+}
+
 /*
- * CSS selectors
+ * CSS selectors for index
  */
+
+.style-j2aemsd0repeaterButton[data-state~="selected"] .style-j2aemsd0repeaterButton_wrapper, .style-j2aemsd0repeaterButton[data-preview~="active"] .style-j2aemsd0repeaterButton_wrapper {
+    border-top: 4px rgba(64, 64, 65, 1);
+}
 
 #SITE_BACKGROUND {
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 1968px;
     width: 1840px;
 }
 
 #SITE_BACKGROUND_current_customBgImg1zik {
-    top: 0px;
+    top: 0;
     background-color: rgb(255, 255, 255);
     position: fixed;
     opacity: 1;
@@ -796,7 +804,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 
 #SITE_BACKGROUND_currentImage_customBgImg1zik {
     position: absolute;
-    top: 0px;
+    top: 0;
     width: 100%;
     opacity: 0.5;
     -webkit-background-size: 100% 100%;
@@ -809,19 +817,19 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 
 #SITE_ROOT {
     width: 980px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 #masterPage {
     width: 980px;
     position: static;
-    top: 0px;
+    top: 0;
     height: 1968px;
 }
 
 #SITE_FOOTER {
     bottom: auto;
-    left: 0px;
+    left: 0;
     width: 980px;
     position: absolute;
     top: 1663px;
@@ -874,7 +882,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 #i1gf1vxl0image {
     width: 19px;
     height: 19px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-right: 19px;
     display: inline-block;
 }
@@ -921,18 +929,18 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 #SITE_PAGES {
-    left: 0px;
+    left: 0;
     width: 980px;
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 1464px;
 }
 
 #mainPage {
-    left: 0px;
+    left: 0;
     width: 980px;
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 1464px;
 }
 
@@ -1090,7 +1098,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 #bodyworksAdAreaDesc {
     font-family: georgia, palatino, 'book antiqua', 'palatino linotype', serif;
     font-size: 15px;
-    line-height: 22.5px;
+    line-height: 23px;
     text-align: center;
 }
 
@@ -1108,7 +1116,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 #i3a49cwz {
-    left: 0px;
+    left: 0;
     width: 399px;
     position: absolute;
     top: 488px;
@@ -1160,7 +1168,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 #freeShippingHeader2 {
-    letter-spacing: 5.59999990463257px;
+    letter-spacing: 6px;
     color: #ffffff;
 }
 
@@ -1169,7 +1177,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 #freeShippingHeaderText {
-    letter-spacing: 5.59999990463257px;
+    letter-spacing: 6px;
 }
 
 #PAGES_CONTAINER {
@@ -1177,7 +1185,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
     position: absolute;
     top: 199px;
     height: 1464px;
-    left: 0px;
+    left: 0;
 }
 
 #i3a3qwrv {
@@ -1195,8 +1203,8 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 #freeShippingRequirement {
     font-family: georgia, palatino, 'book antiqua', 'palatino linotype', serif;
     font-size: 15px;
-    letter-spacing: 1.5px;
-    line-height: 19.5px;
+    letter-spacing: 2px;
+    line-height: 20px;
     text-align: center;
 }
 
@@ -1209,10 +1217,10 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 #c1y8n {
-    left: 0px;
+    left: 0;
     width: 980px;
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 1181px;
     display: none;
 }
@@ -1236,10 +1244,10 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 #c1jpo {
-    left: 0px;
+    left: 0;
     width: 980px;
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 566px;
     display: none;
 }
@@ -1263,19 +1271,19 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 #cjg9 {
-    left: 0px;
+    left: 0;
     width: 980px;
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 1489px;
     display: none;
 }
 
 #cee5 {
-    left: 0px;
+    left: 0;
     width: 980px;
     position: absolute;
-    top: 0px;
+    top: 0;
     height: 937px;
     display: none;
 }
@@ -1283,9 +1291,9 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 #SITE_HEADER {
     width: 980px;
     z-index: 50;
-    top: 0px;
+    top: 0;
     height: 199px;
-    left: 0px;
+    left: 0;
     position: fixed;
 }
 
@@ -1392,7 +1400,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 #i1gbe324__more__ {
-    height: 0px;
+    height: 0;
     overflow: hidden;
     position: absolute;
 }
@@ -1455,15 +1463,15 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 #jdp50kcz {
     position: fixed;
     display: block;
-    width: 0%;
+    width: 0;
     height: 100%;
-    margin-left: 0%;
+    margin-left: 0;
     margin-top: -50%;
     left: 50%;
     top: 50%;
     background: none;
     box-shadow: none;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 #jdp50kczcloseButton {
@@ -1484,13 +1492,68 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
  * End of CSS Selectors
  */
 
+/*
+ * CSS Selectors for candles.html
+ */
+
+/*
+ * End of CSS Selectors
+ */
+
+/*
+ * CSS Selectors for bodyworks.html
+ */
+
+/*
+ * End of CSS Selectors
+ */
+
+/*
+ * CSS Selectors for about.html
+ */
+
+/*
+ * End of CSS Selectors
+ */
+
+/*
+ * CSS Selectors for contact.html
+ */
+
+/*
+ * End of CSS Selectors
+ */
+
+/*
+ * CSS Selectors for checkout.html
+ */
+
+/*
+ * End of CSS Selectors
+ */
+
+/*
+ * CSS Selectors for product-page.html
+ */
+
+/*
+ * End of CSS Selectors
+ */
+
+/*
+ * CSS Selectors for shopping-cart.html
+ */
+
+/*
+ * End of CSS Selectors
+ */
+
 .font_0 {
     line-height: 1.4em;
     font-weight: normal;
     font-variant: normal;
     font-style: normal;
     font-size: 33px;
-    font-family: normal;
     font-family: 'Sacramento', cursive;
     color: #404041;
 }
@@ -1940,8 +2003,8 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
     right: 0;
     bottom: 0;
     left: 0;
-    border-top: 0px solid rgba(64, 64, 65, 1);
-    border-bottom: 0px solid rgba(64, 64, 65, 1);
+    border-top: 0 solid rgba(64, 64, 65, 1);
+    border-bottom: 0 solid rgba(64, 64, 65, 1);
 }
 
 .bgis1inlineContent {
@@ -2285,8 +2348,8 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
     bottom: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0.71);
-    border-top: 0px solid rgba(255, 255, 255, 1);
-    border-bottom: 0px solid rgba(255, 255, 255, 1);
+    border-top: 0 solid rgba(255, 255, 255, 1);
+    border-bottom: 0 solid rgba(255, 255, 255, 1);
 }
 
 .hc3[data-state~="mobileView"] .hc3bg {
@@ -2296,9 +2359,9 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 
 .hc3bg {
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 0;
-    bottom: 0px;
+    bottom: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0.53);
     border-radius: 0;
@@ -2400,8 +2463,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 .style-j2aemsd0repeaterButton[data-state~="over"] .style-j2aemsd0repeaterButton_wrapper, .style-j2aemsd0repeaterButton[data-preview~="hover"] .style-j2aemsd0repeaterButton_wrapper {
-    border-top-width: 4px;
-    border-top-color: rgba(64, 64, 65, 1);
+    border-top: 4px rgba(64, 64, 65, 1);
 }
 
 .style-j2aemsd0repeaterButton[data-state~="over"] .style-j2aemsd0repeaterButtonlabel, .style-j2aemsd0repeaterButton[data-preview~="hover"] .style-j2aemsd0repeaterButtonlabel {
@@ -2411,8 +2473,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 .style-j2aemsd0repeaterButton[data-state~="selected"] .style-j2aemsd0repeaterButton_wrapper, .style-j2aemsd0repeaterButton[data-preview~="active"] .style-j2aemsd0repeaterButton_wrapper {
-    border-top-width: 4px;
-    border-top-color: rgba(64, 64, 65, 1);
+    border-top: 4px rgba(64, 64, 65, 1);
 }
 
 .style-j2aemsd0repeaterButton[data-state~="selected"] .style-j2aemsd0repeaterButtonlabel, .style-j2aemsd0repeaterButton[data-preview~="active"] .style-j2aemsd0repeaterButtonlabel {
@@ -2527,7 +2588,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 .c2bg {
-    border: 0px solid rgba(59, 47, 41, 1);
+    border: 0 solid rgba(59, 47, 41, 1);
     background-color: rgba(246, 220, 208, 1);
 }
 
@@ -2646,7 +2707,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 .i38ts41r_i38tt3nlbg {
-    border: 0px solid rgba(59, 47, 41, 1);
+    border: 0 solid rgba(59, 47, 41, 1);
     background-color: rgba(59, 47, 41, 1);
 }
 
@@ -2691,7 +2752,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 .c4bg {
-    border: 0px solid rgba(255, 255, 255, 1);
+    border: 0 solid rgba(255, 255, 255, 1);
     position: absolute;
     top: 0;
     right: 0;
@@ -2785,7 +2846,7 @@ ol.wix-list-text-align h1, ol.wix-list-text-align h2, ol.wix-list-text-align h3,
 }
 
 .i3a3qhox_i3a3vqt6bg {
-    border: 0px solid rgba(206, 206, 207, 1);
+    border: 0 solid rgba(206, 206, 207, 1);
     background-color: rgba(59, 47, 41, 1);
 }
 
