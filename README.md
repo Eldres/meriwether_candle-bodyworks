@@ -4,7 +4,7 @@ This website was created for Kathie Sammons to be used for her home business of 
 
 ## URL
 
-https://d2j944uc30a2px.cloudfront.net/ - *temporary webpath until a domain is purchased*
+http://www.meriwetherbodyworks.com/
 
 ## Authors
 
